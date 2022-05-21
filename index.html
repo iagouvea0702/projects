@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" class="entrada" readonly>
+        <div class="numeros">
+            <input type="button" id='operador' value="C" onclick="apagar()">
+            <input type="button" id='operador' value="&#8617;" onclick="remover()">
+            <input type="button" id='operador' value="/" onclick="valor('/')">
+            <input type="button" id='operador' value="*" onclick="valor('*')">
+            <input type="button" value="1" onclick="valor('1')">
+            <input type="button" value="2" onclick="valor('2')">
+            <input type="button" value="3" onclick="valor('3')">
+            <input type="button" id='operador' value="-" onclick="valor('-')">
+            <input type="button" value="4" onclick="valor('4')">
+            <input type="button" value="5" onclick="valor('5')">
+            <input type="button" value="6" onclick="valor('6')">
+            <input type="button" id='operador' value="+" onclick="valor('+')">
+            <input type="button" value="7" onclick="valor('7')">
+            <input type="button" value="8" onclick="valor('8')">
+            <input type="button" value="9" onclick="valor('9')">
+            <input type="button" id='operador' value="." onclick="valor('.')">
+            <input type="button" id='operador' value="("onclick="valor('(')">
+            <input type="button" value="0" onclick="valor('0')">
+            <input type="button" id='operador' value=")" onclick="valor(')')">
+            <input type="button" class="result" value="=" onclick="calcular()">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

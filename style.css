@@ -1,0 +1,83 @@
+body{
+    background-color: rgba(73, 80, 78, 0.893);
+}
+
+.calculadora{
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.366);
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.499);
+    margin-left: 50%;
+    transform:translate(-50%, 0);
+}
+
+.entrada{
+    width: 285px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-style: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 2em;
+    font-weight: 600;
+    cursor: default;
+    text-align: right;
+    padding: 1px;
+}
+
+.entrada:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.numeros{
+    width: 300px;
+    display: block;
+}
+.numeros input{
+    width: 70px;
+    height: 50px;
+    font-weight: 700;
+    color: white;
+    font-size: 1.1em;
+    background-color: black;
+    border-style: none;
+    margin-right: -2.5px;
+    margin-bottom: 1px;
+}
+
+.numeros input:hover{
+    background-color: rgb(42, 41, 41);
+}
+
+.numeros input:active{
+    background-color: rgb(58, 58, 58);
+}
+
+.numeros .result{
+    background-color: rgba(2, 63, 155, 0.821);
+}
+
+.numeros .result:hover{
+    background-color: rgba(4, 73, 178, 0.821);
+}
+
+.numeros .result:active{
+    background-color: rgba(4, 89, 217, 0.821);
+}
+
+.numeros #operador{
+    background-color: rgb(42, 41, 41);
+    font-size: 18px;
+}
+
+.numeros #operador:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+.numeros #operador:active{
+    background-color: rgb(86, 85, 85);
+}
